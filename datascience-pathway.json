@@ -1,0 +1,11 @@
+{
+  "title": "Data Science, AI and ML Applications",
+  "icon": "fa-openshift",
+  "courses": [
+    {
+      "external_link": "https://learn.openshift.com/datascience/jupyter-notebooks/",
+      "course_id": "jupyter-notebooks",
+      "title": "Working with Jupyter Notebooks"
+    }
+  ]
+}
