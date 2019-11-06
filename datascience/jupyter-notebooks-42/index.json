@@ -21,11 +21,14 @@
             "title": "Topic 2 - Loading the Notebook Templates",
             "text": "02-loading-the-notebook-templates.md"
         }, {
-            "title": "Topic 3 - Deploying the Jupyter Notebook",
-            "text": "03-deploying-the-jupyter-notebook.md"
+            "title": "Topic 3 - Accessing the Web Console",
+            "text": "03-accessing-the-web-console.md"
         }, {
-            "title": "Topic 4 - Deleting the Jupyter Notebook",
-            "text": "04-deleting-the-jupyter-notebook.md"
+            "title": "Topic 4 - Deploying the Jupyter Notebook",
+            "text": "04-deploying-the-jupyter-notebook.md"
+        }, {
+            "title": "Topic 5 - Deleting the Jupyter Notebook",
+            "text": "05-deleting-the-jupyter-notebook.md"
         }],
         "intro": {
             "text": "intro.md"
