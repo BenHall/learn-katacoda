@@ -16,6 +16,8 @@ As you have already created a project to use for this workshop, you will be pres
 Click on ``myproject`` and you should then be at the _Overview_ page for
 the project. Select the _Developer_ perspective for the project instead of the _Adminstrator_ perspective in the left hand side menu. If necessary click on the hamburger menu icon top left of the web console to expose the left hand side menu.
 
-As the project is currently empty, no workloads should be found and you will be left on the _Add+_ view, and presented with various options for how you can deploy an application.
-
 ![Add to Project](../../assets/datascience/jupyter-notebooks-42/03-add-to-project.png)
+
+As the project is currently empty, no workloads should be found and you will be presented with various options for how you can deploy an application.
+
+Once you have deployed a workload, you can return to this view to deploy additional applications by selecting the _Add+_ option in the left hand side menu.
