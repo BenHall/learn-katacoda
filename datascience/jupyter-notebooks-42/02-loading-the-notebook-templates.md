@@ -2,7 +2,7 @@ The minimal Jupyter Notebook image you loaded can be deployed as is, but to make
 
 To load the templates, run the commands:
 
-``oc apply -f https://raw.githubusercontent.com/jupyter-on-openshift/jupyter-notebooks/master/templates/notebook-deployer.json && oc apply -f https://raw.githubusercontent.com/jupyter-on-openshift/jupyter-notebooks/master/templates/notebook-builder.json && oc apply -f https://raw.githubusercontent.com/jupyter-on-openshift/jupyter-notebooks/master/templates/notebook-quickstart.json && oc apply -f https://raw.githubusercontent.com/jupyter-on-openshift/jupyter-notebooks/master/templates/notebook-workspace.json``
+``oc apply -f https://raw.githubusercontent.com/jupyter-on-openshift/jupyter-notebooks/master/templates/notebook-deployer.json && oc apply -f https://raw.githubusercontent.com/jupyter-on-openshift/jupyter-notebooks/master/templates/notebook-builder.json && oc apply -f https://raw.githubusercontent.com/jupyter-on-openshift/jupyter-notebooks/master/templates/notebook-quickstart.json && oc apply -f https://raw.githubusercontent.com/jupyter-on-openshift/jupyter-notebooks/master/templates/notebook-workspace.json``{{execute}}
 
 This will load the following templates:
 
@@ -16,16 +16,12 @@ This will load the following templates:
 
 You can see the list of templates loaded by running:
 
-```execute
-oc get templates
-```
+``oc get templates``{{execute}}
 
 In this workshop you will be using the `notebook-deployer` template.
 
 To see details about this template and what parameters can be provided when using the template, run the command:
 
-```execute
-oc describe template notebook-deployer
-```
+``oc describe template notebook-deployer``{{execute}}
 
-Other workshops available here will go into how they other templates can be used.
+Other workshops available here will go into how the other templates can be used.
