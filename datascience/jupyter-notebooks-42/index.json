@@ -27,8 +27,11 @@
             "title": "Topic 4 - Deploying the Jupyter Notebook",
             "text": "04-deploying-the-jupyter-notebook.md"
         }, {
-            "title": "Topic 5 - Deleting the Jupyter Notebook",
-            "text": "05-deleting-the-jupyter-notebook.md"
+            "title": "Topic 5 - Enabling JupyterLab Interface",
+            "text": "05-enabling-jupyterlab-interface.md"
+        }, {
+            "title": "Topic 6 - Deleting the Jupyter Notebook",
+            "text": "06-deleting-the-jupyter-notebook.md"
         }],
         "intro": {
             "text": "intro.md"
