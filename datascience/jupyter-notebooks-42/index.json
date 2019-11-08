@@ -1,6 +1,6 @@
 {
     "icon": "fa-openshift",
-    "title": "Working with Jupyter Notebooks",
+    "title": "Deploying a Jupyter Notebook Image",
     "description": "",
     "pathwayTitle": "OpenShift",
     "difficulty": "intermediate",

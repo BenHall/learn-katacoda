@@ -5,7 +5,7 @@
     {
       "external_link": "https://learn.openshift.com/datascience/jupyter-notebooks/",
       "course_id": "jupyter-notebooks",
-      "title": "Working with Jupyter Notebooks"
+      "title": "Deploying a Jupyter Notebook Image"
     },
     {
       "external_link": "https://learn.openshift.com/datascience/custom-notebooks/",
