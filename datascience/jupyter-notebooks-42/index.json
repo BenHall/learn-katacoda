@@ -34,6 +34,7 @@
             "text": "06-deleting-the-jupyter-notebook.md"
         }],
         "intro": {
+            "courseData": "env-init.sh",
             "text": "intro.md"
         },
         "finish": {
