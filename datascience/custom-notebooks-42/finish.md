@@ -1,4 +1,4 @@
-In this workshop you learnt how you can build a custom container image which incorporates a set of Jupyter notebooks and the packages they require, and deploy the image to OpenShift.
+In this workshop you learnt how you can build a custom container image which incorporates a set of Jupyter notebooks and the packages they require, and deploy the image to OpenShift. This was done first as two separate steps, and then as one combined step.
 
 Further details on the example Jupyter notebook images and templates used in this workshop can be found at:
 

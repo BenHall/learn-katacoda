@@ -1,4 +1,4 @@
-To deploy a Jupyter notebook using the `notebook-deployer` template, you can use the command line or the OpenShift web console. We will use the web console in this example.
+You can work with the templates using either the command line or the OpenShift web console. We will use the web console in this example.
 
 Click on the _Console_ tab in the workshop dashboard. You will be presented with the OpenShift login screen.
 

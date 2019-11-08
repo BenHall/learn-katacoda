@@ -32,7 +32,7 @@ In the ``CONTEXT_DIR`` field enter:
 
 Click on _Create_ to instantiate the template. This will leave you on the _Template Instance Overview_ with details of what was created.
 
-Usually a template is used to create a deployment for an application. In this case it has created a build configuration and triggered a build of a custom notebook image, using the files on the Git repository you provided to the template.
+Usually a template is used to create a deployment for an application. In this case it has created a build configuration and triggered a build of a custom notebook image, using the files held in the Git repository you provided to the template.
 
 To monitor the building of the custom notebook image, run:
 
@@ -41,3 +41,11 @@ To monitor the building of the custom notebook image, run:
 The build may take a few moments to start as it pulls down the builder image to use.
 
 The build process will then use the builder image as a base for your custom notebook image, injecting into the image the source code files from the Git repository, and installing and Python packages listed in the Python ``requirements.txt`` file.
+
+One of the items created by the template is an image stream, with it defining the destination for the image which is built.
+
+List the image streams in the project by running:
+
+``oc get imagestreams -o name``{{execute}}
+
+You will see there are now two image streams, the `s2i-minimal-notebook` which was used as the builder image, and the the `custom-notebook` image, which was created by the build.
