@@ -20,4 +20,4 @@ the project. Select the _Developer_ perspective for the project instead of the _
 
 As the project is currently empty, no workloads should be found and you will be presented with various options for how you can deploy an application.
 
-Once you have deployed a workload, you can return to this view to deploy additional applications by selecting the _Add+_ option in the left hand side menu.
+Once you have deployed a workload, you can return to this view to deploy additional applications by selecting the _+Add_ option in the left hand side menu.
