@@ -16,10 +16,18 @@ The purpose of the OpenShift templates which have been loaded are:
 
 * `notebook-workspace` - Template for deploying a Jupyter notebook instance which also attaches a persistent volume, and copies any Python packages and notebooks included in the image, into the persistent volume. Any work done on the notebooks, or to install additional Python packages, will survive a restart of the Jupyter notebook environment. A webdav interface is also enabled to allow remote mounting of the persistent volume to a local computer.
 
-In this workshop you will be using the `notebook-deployer` template.
+In this workshop you will be using the `notebook-builder`, `notebook-deployer` and `notebook-quickstart` templates.
 
-To see details about this template and what parameters can be provided when using the template, run the command:
+To see details about the builder template and what parameters can be provided when using the template, run the command:
+
+``oc describe template notebook-builder``{{execute}}
+
+To see details about the deployer template and what parameters can be provided when using the template, run the command:
 
 ``oc describe template notebook-deployer``{{execute}}
 
-Other workshops available here will go into how the other templates can be used.
+To see details about the quickstart template and what parameters can be provided when using the template, run the command:
+
+``oc describe template notebook-quickstart``{{execute}}
+
+Check out the other workshops available here for more information on these and the other templates.

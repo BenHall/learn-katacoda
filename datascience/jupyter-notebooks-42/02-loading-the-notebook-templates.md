@@ -22,4 +22,4 @@ To see details about this template and what parameters can be provided when usin
 
 ``oc describe template notebook-deployer``{{execute}}
 
-Other workshops available here will go into how the other templates can be used.
+Check out the other workshops available here for more information on this and the other templates.
