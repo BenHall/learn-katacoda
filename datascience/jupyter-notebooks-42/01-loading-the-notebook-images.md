@@ -14,4 +14,4 @@ You can inspect the image stream by running:
 
 ``oc describe imagestream s2i-minimal-notebook``{{execute}}
 
-and you will see that the image stream includes tags for `3.5` and `3.6`. These correspond to versions of the image for Python 3.5 and Python 3.6.
+You should see that the image stream includes tags for `3.5` and `3.6`. These correspond to versions of the image for Python 3.5 and Python 3.6.
