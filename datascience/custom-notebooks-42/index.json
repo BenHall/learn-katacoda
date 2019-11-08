@@ -28,7 +28,6 @@
             "text": "04-building-the-notebook-image.md"
         }],
         "intro": {
-            "courseData": "env-init.sh",
             "text": "intro.md"
         },
         "finish": {
