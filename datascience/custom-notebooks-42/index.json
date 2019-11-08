@@ -25,6 +25,7 @@
             "text": "03-accessing-the-web-console.md"
         }],
         "intro": {
+            "courseData": "env-init.sh",
             "text": "intro.md"
         },
         "finish": {

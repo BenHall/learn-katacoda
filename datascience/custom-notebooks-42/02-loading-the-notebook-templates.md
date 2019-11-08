@@ -1,10 +1,12 @@
-The minimal Jupyter Notebook image you loaded can be deployed as is, but to make it easier to secure access, add persistent storage, define resources, as well as use it as a Source-to-Image (S2I) builder to create custom Jupyter notebook images, the Jupyter on OpenShift project provides a set of OpenShift templates.
+The minimal Jupyter notebook images that have been loaded can be deployed as is, but to make it easier to secure access, add persistent storage, define resources, as well as use it as a Source-to-Image (S2I) builder to create custom Jupyter notebook images, the Jupyter on OpenShift project also provides a set of OpenShift templates.
 
-To load the templates, run the commands:
+As with the Jupyter notebook images, for this workshop these have already been loaded for you.
 
-``oc apply -f https://raw.githubusercontent.com/jupyter-on-openshift/jupyter-notebooks/master/templates/notebook-deployer.json && oc apply -f https://raw.githubusercontent.com/jupyter-on-openshift/jupyter-notebooks/master/templates/notebook-builder.json && oc apply -f https://raw.githubusercontent.com/jupyter-on-openshift/jupyter-notebooks/master/templates/notebook-quickstart.json && oc apply -f https://raw.githubusercontent.com/jupyter-on-openshift/jupyter-notebooks/master/templates/notebook-workspace.json``{{execute}}
+To verify that the templates have been loaded for you, run:
 
-This will load the following templates:
+``oc get templates``{{execute}}
+
+The purpose of the OpenShift templates which have been loaded are:
 
 * `notebook-deployer` - Template for deploying a Jupyter notebook image.
 
@@ -13,10 +15,6 @@ This will load the following templates:
 * `notebook-quickstart` - Template for building and deploying a custom Jupyter notebook image. This combines the functionality of the `notebook-builder` and `notebook-deployer` templates.
 
 * `notebook-workspace` - Template for deploying a Jupyter notebook instance which also attaches a persistent volume, and copies any Python packages and notebooks included in the image, into the persistent volume. Any work done on the notebooks, or to install additional Python packages, will survive a restart of the Jupyter notebook environment. A webdav interface is also enabled to allow remote mounting of the persistent volume to a local computer.
-
-You can see the list of templates loaded by running:
-
-``oc get templates``{{execute}}
 
 In this workshop you will be using the `notebook-deployer` template.
 

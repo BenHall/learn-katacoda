@@ -9,7 +9,7 @@ For the credentials, enter:
 * **Username:** ``developer``{{copy}}
 * **Password:** ``developer``{{copy}}
 
-As you have already created a project to use for this workshop, you will be presented with a list of the projects which includes that project.
+Once you have logged in, you should be shown the list of projects you have access to. A project called ``myproject`` has already been created for you to use in this workshop.
 
 ![List of Projects](../../assets/datascience/jupyter-notebooks-42/03-list-of-projects.png)
 
