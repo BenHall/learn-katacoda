@@ -25,7 +25,7 @@
             "text": "03-accessing-the-web-console.md"
         }, {
             "title": "Topic 4 - Building a Notebook Image",
-            "text": "04-building-a-notebook-image.md"
+            "text": "04-building-the-notebook-image.md"
         }],
         "intro": {
             "courseData": "env-init.sh",
