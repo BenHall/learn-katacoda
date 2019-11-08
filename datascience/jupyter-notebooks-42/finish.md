@@ -1,6 +1,6 @@
 In this workshop you learnt how to deploy and use Jupyter notebook images in OpenShift.
 
-Further details on the example Jupyter notebook images and templates used in this workshop can be found at:
+Further details on the example Jupyter notebook images and templates used in this workshop, including how to load them into your own OpenShift cluster, can be found at:
 
 * https://github.com/jupyter-on-openshift/jupyter-notebooks
 
