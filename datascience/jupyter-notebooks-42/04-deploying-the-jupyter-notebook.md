@@ -18,7 +18,7 @@ The purpose of the template parameters are:
 * ``NOTEBOOK_MEMORY`` - The maximum amount of memory the Jupyter noteboook deployment is allowed to use.
 * ``ENABLE_JUPYTERLAB`` - Whether the JupyterLab web interface, rather than the classic web interface, is enabled.
 
-In the ``NOTEBOOK_PASSWORD`` field enter a password of ``secret``, and then click on _Create_. The _Template Instance Overview_ view for the deployment will be displayed.
+In the ``NOTEBOOK_PASSWORD`` field enter a password of ``secret``{{copy}}, and then click on _Create_. The _Template Instance Overview_ view for the deployment will be displayed.
 
 To monitor the deployment, click on the _Topology_ view in the left hand side menu.
 
@@ -26,14 +26,16 @@ To monitor the deployment, click on the _Topology_ view in the left hand side me
 
 The ring shown in the visualization of the deployment will change from white, indicating the deployment is pending, to light blue, indicating the application is starting, and finally blue, indicating the application is running.
 
-The icon top right of the ring is a short cut to access the URL for the deployment. Click on this icon, which will open a new browser tab or window for the Jupyter notebook. Because a secure HTTP connection is used, but an environment may in some cases use a self signed SSL certificate, you will need to accept the certificate to proceed.
+The icon top right of the ring is a short cut to access the URL for the deployment. Once the ring has turned blue indicating the application is running, click on this icon, which will open a new browser tab or window for the Jupyter notebook.
+
+Because a secure HTTP connection is used, but an environment may in some cases use a self signed SSL certificate, you will need to accept the certificate to proceed.
 
 ![Login Prompt](../../assets/datascience/jupyter-notebooks-42/04-notebook-login-prompt.png)
 
-At the login prompt, enter the password ``secret`` which you entered into the ``NOTEBOOK_PASSWORD`` field. You will then be granted to the Jupyter notebook file browser.
+At the login prompt, enter the password ``secret``{{copy}} which you entered into the ``NOTEBOOK_PASSWORD`` field. You will then be granted access to the Jupyter notebook file browser.
 
 ![Classic Notebook](../../assets/datascience/jupyter-notebooks-42/04-classic-notebook-interface.png)
 
-At this point you can create new notebooks or upload existing notebooks. If you need to install additional Python packages, when using this type of deployment you would need to start a terminal and install the packages manually.
+At this point you can create new notebooks or upload existing notebooks. If you need to install additional Python packages, when using this type of deployment you would need to start a terminal from the Jupyter notebook web interface and install the packages manually.
 
-In this configuration nothing is persistent. If the notebook instance were restarted, you would loose any work. For a persistent workspace, the ``notebook-workspace`` template can be used. Details of how to use this template are included in a separate workshop.
+In this configuration nothing is persistent. If the notebook instance were restarted, you would loose any work. For a persistent workspace, the ``notebook-workspace`` template can be used. Details of how to use this template are described in a separate workshop.
