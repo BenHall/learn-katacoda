@@ -1,5 +1,3 @@
-In this workshop you learnt how you can build a custom container image which incorporates a set of Jupyter notebooks and the packages they require, and deploy the image to OpenShift. This was done first as two separate steps, and then as one combined step.
-
 In this workshop you learnt how you can deploy a workspace for working on Jupyter notebooks which is backed by persistant storage, ensuring that any changes made to your notebook files, and that any additional Python packages you manually install, are always available, even across a restart of the workspace environment.
 
 Further details on the example Jupyter notebook images and templates used in this workshop can be found at:
