@@ -46,4 +46,4 @@ To monitor the deployment, click on the _Topology_ view in the left hand side me
 
 Once the ring has turned blue indicating the application is running, click on the icon for accessing the application via its URL.
 
-Accept the certificate for the secure connection and enter ``secret``{{copy}} for the notebook password, in order to access the Jupyter notebook web interface.
+Accept the certificate for the secure connection and enter ``secret``{{copy}} for the notebook password. You should then be able to access the Jupyter notebook web interface.
