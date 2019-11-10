@@ -11,6 +11,11 @@
       "external_link": "https://learn.openshift.com/datascience/custom-notebooks/",
       "course_id": "custom-notebooks",
       "title": "Building Custom Notebook Images"
+    },
+    {
+      "external_link": "https://learn.openshift.com/datascience/jupyter-workspace/",
+      "course_id": "jupyter-workspace",
+      "title": "Persistent Workspace for Notebooks"
     }
   ]
 }
