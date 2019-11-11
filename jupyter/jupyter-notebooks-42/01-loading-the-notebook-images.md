@@ -1,6 +1,6 @@
 The Jupyter on OpenShift project provides Jupyter notebook images which have been purpose built to work best with OpenShift.
 
-Before you can deploy these Jupyter notebook images, you first need to load the images for the Jupyter notebook application into your project in OpenShift. You only need to load this once in a project. You can then use it in creating as many different Jupyter Notebook deployments as you need.
+Before you can deploy these Jupyter notebook images, you first need to load the images for the Jupyter notebook application into your project in OpenShift. You only need to load this once in a project. You can then use it in creating as many different Jupyter notebook deployments as you need.
 
 In this workshop the step of loading the Jupyter notebook images has already been done for you.
 
