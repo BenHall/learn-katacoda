@@ -40,7 +40,7 @@ To monitor the building of the custom notebook image, run:
 
 The build may take a few moments to start as it pulls down the builder image to use.
 
-The build process will then use the builder image as a base for your custom notebook image, injecting into the image the source code files from the Git repository, and installing and Python packages listed in the Python ``requirements.txt`` file.
+The build process will then use the builder image as a base for your custom notebook image, injecting into the image the source code files from the Git repository, and installing any Python packages listed in the Python ``requirements.txt`` file.
 
 One of the items created by the template is an image stream, with it defining the destination for the image which is built.
 
