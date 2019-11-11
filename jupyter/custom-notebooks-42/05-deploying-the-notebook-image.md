@@ -17,8 +17,8 @@ The purpose of the template parameters are:
 * ``APPLICATION_NAME`` - The name of the deployment.
 * ``NOTEBOOK_IMAGE`` - The name of the image stream for the Jupyter notebook image, and the version tag, which you wish to use.
 * ``NOTEBOOK_PASSWORD`` - The password used to protect access to the Jupyter notebook. This cannot be left empty.
+* ``NOTEBOOK_INTERFACE`` - The Jupyter notebook web interface to use. Setting this to ``lab`` will enable the JupyterLab web interface.
 * ``NOTEBOOK_MEMORY`` - The maximum amount of memory the Jupyter noteboook deployment is allowed to use.
-* ``ENABLE_JUPYTERLAB`` - Whether the JupyterLab web interface, rather than the classic web interface, is enabled.
 
 In the ``NOTEBOOK_IMAGE`` field, change the value from ``s2i-mininal-notebook:3.6`` to ``custom-notebook:latest``{{copy}}. This corresponds to the name of the image the build created.
 
