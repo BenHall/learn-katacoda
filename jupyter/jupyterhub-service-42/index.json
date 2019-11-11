@@ -1,6 +1,6 @@
 {
     "icon": "fa-openshift",
-    "title": "Jupyter Notebooks as a Service",
+    "title": "Deploying JupyterHub as a Service",
     "description": "",
     "pathwayTitle": "OpenShift",
     "difficulty": "intermediate",

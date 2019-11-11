@@ -12,7 +12,7 @@ This time click on the _Jupyter Notebook Quickstart_ tile.
 
 This will bring up the description of the template. Click on _Instantiate Template_, which will bring up a form with the parameters for the template which you can customize.
 
-![Instatiate Template](../../assets/datascience/custom-notebooks-42/07-instantiate-template.png)
+![Instatiate Template](../../assets/jupyter/custom-notebooks-42/07-instantiate-template.png)
 
 The purpose of the template parameters are:
 

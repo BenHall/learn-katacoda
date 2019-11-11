@@ -18,4 +18,4 @@ Return to the _Console_ and go to the _Topology_ view. Click on the icon for the
 
 You will be prompted to login to the Jupyter notebook instance again. Supply the password ``secret``{{copy}}. You should now see that the JupyterLab web interface is being used.
 
-![JupyterLab Interface](../../assets/datascience/jupyter-notebooks-42/05-jupyterlab-interface.png)
+![JupyterLab Interface](../../assets/jupyter/jupyter-notebooks-42/05-jupyterlab-interface.png)
