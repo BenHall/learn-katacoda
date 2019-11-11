@@ -6,7 +6,7 @@ Return back to the web console again, and click on the _+Add_ option in the left
 
 Select _From Catalog_. This will bring up the _Developer Catalog_.
 
-Ensure that _All Items_ is selected on the left hand size, and in the _Filter by keyword_ text entry field enter ``jupyter``{{copy}}.
+Ensure that _All Items_ is selected on the left hand side, and in the _Filter by keyword_ text entry field enter ``jupyter``{{copy}}.
 
 This time click on the _Jupyter Notebook Quickstart_ tile.
 

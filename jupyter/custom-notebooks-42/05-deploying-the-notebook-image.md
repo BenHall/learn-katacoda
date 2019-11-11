@@ -2,7 +2,7 @@ Return to the web console, and click on the _+Add_ option in the left hand side 
 
 From the options for deploying applications to your project, select _From Catalog_. This will bring up the _Developer Catalog_.
 
-Ensure that _All Items_ is selected on the left hand size, and in the _Filter by keyword_ text entry field enter ``jupyter``{{copy}}.
+Ensure that _All Items_ is selected on the left hand side, and in the _Filter by keyword_ text entry field enter ``jupyter``{{copy}}.
 
 ![Add to Project](../../assets/jupyter/custom-notebooks-42/05-jupyter-notebook-templates.png)
 
