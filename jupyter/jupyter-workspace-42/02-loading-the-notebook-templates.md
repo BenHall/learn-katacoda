@@ -18,16 +18,8 @@ The purpose of the OpenShift templates which have been loaded are:
 
 In this workshop you will be using the `notebook-workspace` template.
 
-To see details about the builder template and what parameters can be provided when using the template, run the command:
+To see details about the workspace template and what parameters can be provided when using the template, run the command:
 
-``oc describe template notebook-builder``{{execute}}
+``oc describe template notebook-workspace``{{execute}}
 
-To see details about the deployer template and what parameters can be provided when using the template, run the command:
-
-``oc describe template notebook-deployer``{{execute}}
-
-To see details about the quickstart template and what parameters can be provided when using the template, run the command:
-
-``oc describe template notebook-quickstart``{{execute}}
-
-Check out the other workshops available here for more information on these and the other templates.
+Check out the other workshops available here for more information on the other templates.
