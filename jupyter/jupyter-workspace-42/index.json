@@ -23,6 +23,9 @@
         }, {
             "title": "Topic 3 - Accessing the Web Console",
             "text": "03-accessing-the-web-console.md"
+        }, {
+            "title": "Topic 4 - Deploying the Jupyter Workspace",
+            "text": "04-deploying-the-jupyter-workspace.md"
         }],
         "intro": {
             "courseData": "env-init.sh",
