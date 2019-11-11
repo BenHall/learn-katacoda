@@ -26,6 +26,12 @@
         }, {
             "title": "Topic 4 - Deploying the Jupyter Workspace",
             "text": "04-deploying-the-jupyter-workspace.md"
+        }, {
+            "title": "Topic 5 - Testing the Persistent Storage",
+            "text": "05-testing-the-persistent-storage.md"
+        }, {
+            "title": "Topic 6 - Deleting the Jupyter Notebook",
+            "text": "06-deleting-the-jupyter-notebook.md"
         }],
         "intro": {
             "courseData": "env-init.sh",
