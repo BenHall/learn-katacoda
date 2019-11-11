@@ -8,9 +8,7 @@ To verify that the templates have been loaded for you, run:
 
 The purpose of the OpenShift templates which have been loaded are:
 
-* `notebook-builder` - Template for building a custom Jupyter notebook image using Source-to-Image (S2I) against a hosted Git repository. Python packages listed in the `requirements.txt` file of the Git repository will be installed and any files, including notebook images, will be copied into the image. The image can then be deployed using the `notebook-deployer` template.
-
-* `notebook-builder` - Template for building a custom Jupyter notebook image using Source-to-Image (S2I) against a hosted Git repository. Python packages listed in the `requirements.txt` file of the Git repository will be installed and any files, including notebook images, will be copied into the image.
+* `notebook-builder` - Template for building a custom Jupyter notebook image using Source-to-Image (S2I) against a hosted Git repository.
 
 * `jupyterhub-deployer` - Template for deploying a JupyterHub service using an existing Jupyter notebook image.
 
