@@ -16,6 +16,11 @@
       "external_link": "https://learn.openshift.com/datascience/jupyter-workspace/",
       "course_id": "jupyter-workspace",
       "title": "Persistent Workspace for Notebooks"
+    },
+    {
+      "external_link": "https://learn.openshift.com/datascience/jupyterhub-service/",
+      "course_id": "jupyterhub-service",
+      "title": "Jupyter Notebooks as a Service"
     }
   ]
 }
