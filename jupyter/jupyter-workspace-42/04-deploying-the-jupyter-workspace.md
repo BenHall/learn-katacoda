@@ -15,9 +15,9 @@ The purpose of the template parameters are:
 * ``APPLICATION_NAME`` - The name of the deployment.
 * ``NOTEBOOK_IMAGE`` - The name of the image stream for the Jupyter notebook image, and the version tag, which you wish to use.
 * ``NOTEBOOK_PASSWORD`` - The password used to protect access to the Jupyter notebook. This cannot be left empty.
+* ``NOTEBOOK_INTERFACE`` - The Jupyter notebook web interface to use. Setting this to ``lab`` will enable the JupyterLab web interface.
 * ``NOTEBOOK_MEMORY`` - The maximum amount of memory the Jupyter noteboook deployment is allowed to use.
 * ``VOLUME_SIZE`` - The size of the persistent volume used to store files for the persistent workspace.
-* ``ENABLE_JUPYTERLAB`` - Whether the JupyterLab web interface, rather than the classic web interface, is enabled.
 
 In the ``NOTEBOOK_PASSWORD`` field enter a password of ``secret``{{copy}}, and then click on _Create_. The _Template Instance Overview_ view for the deployment will be displayed.
 
